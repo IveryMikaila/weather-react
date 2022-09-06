@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import Form from "./Form";
 import Location from "./Location";
 import Weather from "./Weather";
+import Source from "./Source";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
      <Location />
    </div>
    <Weather />
+   <Source />
  </div>
 );
 
