@@ -1,0 +1,10 @@
+.WeatherForecast {
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+  }
+  
+  .WeatherForecast-temperature-min {
+   color: white;
+    margin-left: 5px;
+  }

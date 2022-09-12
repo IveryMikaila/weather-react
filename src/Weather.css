@@ -1,0 +1,81 @@
+:root {
+  --theme-color1: #233565;
+  --theme-color2: #8bd8bd;
+}
+
+.Weather {
+  background-color: var(--theme-color1);
+  width: 585px;
+  height: 558px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: -1px 6px 44px 7px rgba(0, 0, 0, 0.67);
+  margin-bottom: 7px;
+  color: white;
+  }
+  
+  .Weather h1 {
+    font-size: 24px;
+    font-weight: 100;
+    margin: 20px 0 0 0;
+    line-height: 29px;
+  }
+  
+  .Weather ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Weather li {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+    list-style: none;
+  }
+  
+  .Weather .temperature {
+    font-weight: bold;
+    color: white;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .WeatherTemperature-container{
+    text-align: center;
+margin: 0 auto;
+margin-top: -26px;
+margin-bottom: 30px;
+
+
+  }
+  .WeatherTemperature{
+    text-align: center;
+  }
+
+  
+  .Weather canvas {
+    margin: 10px auto;
+  }
+  
+  .Weather .unit {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    line-height: 1;
+    top: -34px;
+  }
+
+
+  .humid , .wind{
+    background-color: var(--theme-color2);
+    border-radius: 5px;
+    padding: 18px;
+    margin: 10px;
+   
+  }
+ 
