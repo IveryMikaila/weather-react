@@ -17,7 +17,7 @@ export default function App() {
          <a href="https://github.com/IveryMikaila" target="_blank"><img src={gitIcon} alt="gitHub icon"  width="90px"/></a> 
       <div>
           <a
-            href="https://github.com/wecodeschool/react-weather-app"
+            href="https://github.com/IveryMikaila/weather-react"
             target="_blank"
             rel="noopener noreferrer"
             className="srcLink"
